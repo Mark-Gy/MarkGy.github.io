@@ -1,0 +1,103 @@
+/*CSS code of Mark Andree Guaki*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #61dafb;
+    font-size: 3em;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    color: #adb5bd;
+    margin-top: 5px;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.rightScr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.leftScr{
+    max-width: 50%;
+}
+
+#container {
+    background-color: rgba(59, 63, 74, 0.9);
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    width: 450px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+input[type="text"] {
+    width: auto ;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 1px solid #6c757d;
+    font-size: 2.2em;
+    text-align: center;
+    background-color: #495057;
+    color: #ffffff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    font-size: 1.7em;
+    color: #ffffff;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #21a1f1;
+    transform: translateY(-3px);
+}
+
+#clear {
+    background-color: #ff6b6b;
+}
+
+#clear:hover {
+    background-color: #e74c3c;
+}
+
+#translate {
+    background-color: #28a745;
+    font-size: 20px;
+}
+
+#translate:hover {
+    background-color: #218838;
+}

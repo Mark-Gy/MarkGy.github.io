@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Group 16</title>
+    </head>
+    <body>
+        <div class="leftScr">
+            <h1>Number to Words Translator Calculator</h1>
+            <h3>Mark and Ron<br>Group 16</h3><br>
+            <h3>Improved Version</h3>
+        </div>  
+    
+        <div class="rightScr">
+            <fieldset id="container">
+                <input id="display" type="text" name="display" readonly>
+                <div>
+                    <button onclick="pressDigit('1')">1</button>
+                    <button onclick="pressDigit('2')">2</button>
+                    <button onclick="pressDigit('3')">3</button>
+                </div>
+                <div>
+                    <button onclick="pressDigit('4')">4</button>
+                    <button onclick="pressDigit('5')">5</button>
+                    <button onclick="pressDigit('6')">6</button>
+                </div>
+                <div>
+                    <button onclick="pressDigit('7')">7</button>
+                    <button onclick="pressDigit('8')">8</button>
+                    <button onclick="pressDigit('9')">9</button>
+                </div>
+                <div>
+                    <button id="clear" onclick="clearDisplay()">Clear</button>
+                    <button onclick="pressDigit('0')">0</button>
+                    <button id="translate" onclick="translateToWords()">Translate</button>
+                </div>
+            </fieldset>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
